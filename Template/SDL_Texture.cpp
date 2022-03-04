@@ -106,9 +106,9 @@ int main(int argc, char* argv[])
     SDL_Texture* background = loadTexture("test_texture.png", renderer);
     SDL_RenderCopy(renderer, background, nullptr, nullptr);
     /**
-        RenderCopy explain:
-        3th argument: react on the image you want to show
-        4th argument: react on the background you want to put the image in
+        RenderCopy explaination:
+        3th argument: rect on the image you want to show
+        4th argument: rect on the background you want to put the image in
 
     SDL_Texture* cat = loadTexture("cute_gangster_cat.jpg", renderer);
     SDL_Rect cat_rect;
